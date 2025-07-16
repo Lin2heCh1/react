@@ -1,6 +1,6 @@
 import React from 'react';
 import { List } from 'antd-mobile';
-import { RestaurantOutline } from 'antd-mobile-icons';
+import { ShopbagOutline } from 'antd-mobile-icons';
 import '../global.css';
 
 const foods = [
@@ -12,7 +12,7 @@ const foods = [
 export default function FoodPage() {
   return (
     <div style={{ padding: 20, maxWidth: 480, margin: '0 auto' }}>
-      <div className="muji-section-title"><RestaurantOutline className="air-icon" /> 美食推荐</div>
+      <div className="muji-section-title"><ShopbagOutline className="air-icon" /> 美食推荐</div>
       <div className="air-list">
         <List>
           {foods.map(item => (
